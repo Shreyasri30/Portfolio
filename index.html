@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreyasri's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+   <header>
+    <div class="logo">Shreyasri R</div>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#projects">Project</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="theme-toggle">
+        <input type="checkbox" id="toggle" />
+        <label for="toggle" class="slider">
+        <span class="icon">🌙</span>
+        <span class="icon">☀️</span>
+        </label>
+</div>
+
+
+   </header> 
+
+       <section id="home" class="home">
+  <div class="home-content">
+    <h1>Hello, I’m <span>Shreyasri R</span></h1>
+    <p>A passionate and proactive third-year Bachelor of Engineering student specializing in Computer Science and
+Engineering, with a strong foundational knowledge of programming languages including C, Java, and Python. Enthusiastic
+about deepening my expertise in software development, algorithms, and data structures while continuously improving my coding
+proficiency. Eager to contribute to real-world projects and leverage my problem-solving abilities to drive innovative solutions.
+Actively seeking internship opportunities to apply my technical skills, gain hands-on experience, and grow within the dynamic
+tech industry</p>
+    
+    <div class="social-icons">
+      <a href="https://github.com/Shreyasri30" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/shreyasri-r-806817300/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    <a href="assets/Shreya resume.pdf" class="btn download" download>Download Resume</a>
+  </div>
+
+  <div class="home-image">
+    <img src="images/profile.png" alt="Profile Picture">
+  </div>
+</section>
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <div class="about-container">
+    <img src="images/profile.png" alt="Shreyasri Profile Picture">
+
+    <div class="about-text">
+      <input type="checkbox" id="read-more-toggle">
+      
+      <p>
+        I’m Shreyasri R, a passionate and proactive Computer Science Engineering student from Sathyabama Institute of Science and Technology, Chennai.
+        <span class="extra-text">
+        I have a strong foundation in C, Java, Python, and web technologies like HTML, CSS, JavaScript, Django, and React. I’m currently diving deep into software development, AI/ML, and full-stack web projects through internships and real-world collaborations. I love building scalable, clean, and impactful software solutions that solve real problems.
+        </span>
+      </p>
+
+      <label for="read-more-toggle" class="read-more-label">Read More</label>
+    </div>
+  </div>
+</section>
+<section id="skills" class="skills">
+  <h2>Skills</h2>
+  <div class="circular-skill-container">
+
+    <div class="circle">
+      <div class="outer" style="--percentage: 90;">
+        <div class="inner">C</div>
+      </div>
+    </div>
+
+    <div class="circle">
+      <div class="outer" style="--percentage: 85;">
+        <div class="inner">Java</div>
+      </div>
+    </div>
+
+    <div class="circle">
+      <div class="outer" style="--percentage: 80;">
+        <div class="inner">Python</div>
+      </div>
+    </div>
+
+    <div class="circle">
+      <div class="outer" style="--percentage: 95;">
+        <div class="inner">HTML/CSS</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="certifications" class="certifications">
+  <h2>Certifications</h2>
+  <div class="cert-card-container">
+
+    <div class="cert-card">
+      <h3>Python Essentials 1</h3>
+      <p>Issued by Python Institute & Cisco Networking Academy (Nov 2024)</p>
+      <a href="certs/python.pdf" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <h3>Data Science</h3>
+      <p>Issued by Cisco Networking Academy (Nov 2024)</p>
+      <a href="certs/data.pdf" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <div class="cert-card">
+      <h3>Frontend Development (CSS)</h3>
+      <p>Issued by Great Learning Academy (Nov 2024)</p>
+      <a href="certs/css.pdf" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+  </div>
+</section>
+<section id="projects" class="projects">
+  <h2>Projects</h2>
+  <div class="project-container">
+
+    <div class="project-card">
+      <h3>Subscription Management System</h3>
+      <p>Full-stack Django + React app to manage customer subscriptions and revenue tracking.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>ShynTax - GST Dashboard</h3>
+      <p>Built with Flask + HTML/CSS to manage GST invoices, clients, and tax reports with analytics.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>ShynArch - FloorPlan Generator</h3>
+      <p>Django + React app for dynamic house plan generation with 3D visualization and cost estimator.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Playlist Navigation System</h3>
+      <p>Python-based music playlist simulation using doubly linked list structure and navigation options.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Queue Management for Ticket Counter</h3>
+      <p>Python queue-based simulation to manage real-time cinema ticket operations using FCFS.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Sales Data Analytics on Snowflake</h3>
+      <p>End-to-end sales pipeline + dashboard using Snowflake, Python, and Tableau integration.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Math Expression Converter</h3>
+      <p>Python app to convert infix BODMAS expressions to postfix using Shunting Yard algorithm.</p>
+    </div>
+
+  </div>
+</section>
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <a href="tel:7200405575" class="footer-btn"><i class="fas fa-phone"></i></a>
+    <a href="mailto:ramkishreya@gmail.com" class="footer-btn"><i class="fas fa-envelope"></i></a>
+
+  </div>
+  <p class="copyright">© 2025 Shreyasri R. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
